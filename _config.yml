@@ -1,8 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Adv. Prog. (C++)
+description: Advanced Programming with C++
 theme: just-the-docs
+author: M. Amintoosi
 
-url: https://just-the-docs.github.io
+url: https://fum-cs.github.io/AdvProg-CPP
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  CS Dept.:
+    - 'https://fumcs.github.io'
+  Mahmood Amintoosi:
+    - 'https://mamintoosi.github.io'
+  Modern C++:
+    - 'https://github.com/fum-cs/modern-cpp'
+  Class Repository:
+    - 'https://github.com/fum-cs/AdvProg-CPP'
