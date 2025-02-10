@@ -1,35 +1,66 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Advanced Programming Course with C++ 
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Welcome to the advanced programming course which is devoted to C++ for Python programmers.
 
-More specifically, the created site:
+This course consists of several chapters, each covering a specific topic or feature of C++. Each chapter contains a lot of code examples and exercises to help you understand and practice the concepts. You can find the source code on the [GitHub repository](https://github.com/fum-cs/cpp4python/) of this course (TO-DO). I hope you enjoy this course and learn a lot from it.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+I should also mention that the original material of this course was from [Jan Pearce, Berea College and Brad Miller, Runestone](https://runestone.academy/ns/books/published/cpp4python/index.html). I have forked the [related repository](https://github.com/pearcej/cpp4python), convert rst files to markdown, and I am modifying it to suit my own needs and preferences. I would like to thank them for her great work and generosity.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Reporting Typos or Other Problems
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+Thank you for your help in improving this text. If you find a typo or
+other problem, you can visit the [Github issue
+tracker](https://github.com/fum-cs/AdvProg-CPP/issues) giving as much
+information as needed to understand the problem. If you include the URL
+of the page where the problem occurred, this is especially helpful.
 
-To get started with creating a site, simply:
+*The following section is written by the authors of the original text.*
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+# C++ for Python Programmers
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+This short ebook is intended to help Python programmers or students with
+at least one term of Python programming experience learn the basics of
+the C++ programming language.
 
-----
+This book is written using the build on what you know philosophy. In
+order to help you learn C++ we will start with a Python example and then
+implement the example in C++. We will also examine the strengths,
+weaknesses, and differences between these two languages. As such, this
+book does not attempt to replace the many good C++ reference books that
+are available. Please feel free to use this book for yourself, or as a
+resource for a course you are teaching.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+This ebook is published using a Creative Commons license to encourage
+you to use it, change it, and modify it for your own purposes. We would
+appreciate knowing what you think if you do use this book, and we would
+love to see any modifications or additions you make. Please, Fork Me!
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+By Jan Pearce, Berea College and Brad Miller, Runestone
+
+
+## Acknowledgements
+
+Many thanks to [Runestone](https://runestone.academy/ns/books/published/cpp4python/index.html) for creating a very strong framework for open source
+computing books. Many thanks also to Berea College\'s Labor Program for
+making it possible for students to undergraduate students to receive
+funding to contribute.
+
+Some sections of this book were originally written by Dr. Brad Miller as
+*Java for Python Programmers*. These were translated to the C++ language
+by Dr. Jan Pearce and a team of excellent students from Berea College.
+Other sections were originally written as course web pages by Dr. Jan
+Pearce.
+
+We would like to extend a special note of gratitude to [Jesse
+Walker-Schadler](https://www.linkedin.com/in/jesse-walker-schadler-a4898916b)
+who had the vision to create the [CTurtle
+library](https://github.com/walkerje/C-Turtle) which makes graphing in
+C++ particularly easy for Python programmers because it used the Python
+Turtle library syntax, and for his excellent work in porting it to
+Runestone.
