@@ -1,3 +1,11 @@
+---
+layout: default
+title: C++ Data Types Glossary
+parent: C++ Data Types
+nav_order: 3
+---
+
+
 # Glossary of C++ Data Types and Concepts
 
 Understanding data types and fundamental concepts in C++ is crucial for writing efficient and error-free programs. This glossary provides clear definitions and explanations for key terms related to C++ data types and memory management.
