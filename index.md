@@ -4,25 +4,22 @@ layout: home
 nav_order: 1
 ---
 
-# Advanced Programming Course with C++ 
+# Advanced Programming Course with C++
 
 Welcome to the advanced programming course which is devoted to C++ for Python programmers.
 
 This course consists of several chapters, each covering a specific topic or feature of C++. Each chapter contains a lot of code examples and exercises to help you understand and practice the concepts. You can find the source code on the [GitHub repository](https://github.com/fum-cs/cpp4python/) of this course (TO-DO). I hope you enjoy this course and learn a lot from it.
 
-
 ## Further Reading
 
 ## References
 
-
-
 - [Hacking C++](https://hackingcpp.com/)
-- **[Beginning C++17: From Novice to Professional](https://fumdrive.um.ac.ir/index.php/s/mCkY8LT5HTFbaZa)**, by Ivor Horton, Peter Van Weert
-- **[C++ Programming From Problem Analysis to Program Design](https://fumdrive.um.ac.ir/index.php/s/Ska38qJQTed865n)**, by D. S. Malik, 2011, 5th Edition
-- **[Beginning C++20: From Novice to Professional](https://1drv.ms/b/c/31166a0f5c94f268/EWjylFwPahYggDG9PwAAAAABlopbkWYseownampIcu6urw?e=NxTUGM)**, by Ivor Horton, Peter Van Weert
-- **[Beginning C++23: From Beginner to Pro, Seventh Edition](https://1drv.ms/b/c/31166a0f5c94f268/EWjylFwPahYggDG8PwAAAAABEstnNovNhww4kmL_Dng5iA?e=gIQ8sP)**, by Ivor Horton, Peter Van Weert
-
+- _Beginning C++17: From Novice to Professional_, by Ivor Horton, Peter Van Weert
+- _C++ Programming From Problem Analysis to Program Design_, by D. S. Malik, 2011, 5th Edition
+- _Beginning C++20: From Novice to Professional_, by Ivor Horton, Peter Van Weert
+- _Beginning C++23: From Beginner to Pro, Seventh Edition_, by Ivor Horton, Peter Van Weert
+- [FUM Drive Shared Folder](https://fumdrive.um.ac.ir/index.php/s/7aSKbTwMcHESyn2)
 
 ---
 
