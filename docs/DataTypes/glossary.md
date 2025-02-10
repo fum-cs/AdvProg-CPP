@@ -102,7 +102,7 @@ cout << age; // Outputs: 25
 
 Match each glossary term with its correct definition.
 
-- **Address-of Operator (**`**&**`**)** → Used to access the memory address of a variable in C++.
+- **Address-of Operator (**`&`**)** → Used to access the memory address of a variable in C++.
     
 - **Atomic Data Type** → A data type that cannot be broken down into simpler elements.
     
