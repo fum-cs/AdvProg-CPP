@@ -2,7 +2,7 @@
 layout: default
 title: C++ Data Types Glossary
 parent: C++ Data Types
-nav_order: 3
+nav_order: 4
 ---
 
 
