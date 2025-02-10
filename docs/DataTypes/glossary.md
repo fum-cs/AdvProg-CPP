@@ -5,6 +5,17 @@ parent: C++ Data Types
 nav_order: 4
 ---
 
+- [Glossary of C++ Data Types and Concepts](#glossary-of-c-data-types-and-concepts)
+  - [Key Terms and Definitions](#key-terms-and-definitions)
+    - [Address-of Operator (`&`)](#address-of-operator-)
+    - [Atomic Data Type](#atomic-data-type)
+    - [`bool` (Boolean Data Type)](#bool-boolean-data-type)
+    - [`char` (Character Data Type)](#char-character-data-type)
+    - [Dereferencing a Pointer](#dereferencing-a-pointer)
+    - [`float` (Floating-Point Data Type)](#float-floating-point-data-type)
+    - [`double` (Double-Precision Floating-Point Data Type)](#double-double-precision-floating-point-data-type)
+    - [`int` (Integer Data Type)](#int-integer-data-type)
+  - [Matching Exercise](#matching-exercise)
 
 # Glossary of C++ Data Types and Concepts
 
