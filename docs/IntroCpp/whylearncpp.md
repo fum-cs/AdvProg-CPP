@@ -5,7 +5,7 @@ parent: Introduction to C++ for Python Programmers
 nav_order: 1
 ---
 
-[](images/The evolution of computer programming languages.png)
+[](images/The%20evolution%20of%20computer%20programming%20languages.png)
 
 Python is a great language for beginning programming for several reasons. First, the syntax is both sparse and clear. Second, the underlying model of how objects and variables work is very consistent. Third, you can write powerful and interesting programs without a lot of work. However, Python is representative of one kind of language, called a dynamic language. One might think of Python as being fairly informal. Other languages, like C, C++, and Java are more formal.
 
