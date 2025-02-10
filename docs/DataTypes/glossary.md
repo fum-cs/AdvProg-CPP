@@ -5,52 +5,42 @@ parent: C++ Data Types
 nav_order: 5
 ---
 
-
 # Glossary
 
-::: {.glossary}
+## Terms
 
-address-of
+### Address-of
+The address-of operator (`&`) is used to access the address of a C++ variable.
 
-:   the address-of operator (`&`) is used to access the address of a C++
-    variable.
+### Atomic Data Type
+A basic data type that cannot be broken down into any simpler data elements.
 
-atomic data type
+### `bool`
+Keyword for the Boolean data type.
 
-:   basic data type that cannot be broken down into any simpler data
-    elements.
+### `char`
+Keyword for the character data type that stores a single character.
 
-`bool`
+### Dereference
+Following a pointer to its referenced memory location and reading the data there.
 
-:   keyword for Boolean data type.
+### `float`
+Keyword for the floating-point data type.
 
-`char`
+### `double`
+Keyword for the double-precision floating-point data type.
 
-:   keyword for character data type that stores a single character.
+### `int`
+Keyword for the integer data type.
 
-dereference
+---
 
-:   follow a pointer to its referenced memory location and read the data
-    there.
+## Matching
 
-`float`
+Drag each glossary term to its corresponding definition.
 
-:   keyword for floating point data type.
+- **Address-of** → `(&) is used to access the memory address of a C++ variable.`
+- **Atomic Data Type** → `Data type that cannot be broken down into any simpler data elements.`
+- **Dereference** → `Reads data in a pointer's memory location.`
+- **Pointer** → `Variables that store and manipulate memory addresses.`
 
-`double`
-
-:   keyword for double-precision floating point data type.
-
-`int`
-
-:   keyword for integer data type.
-:::
-
-# Matching
-
-::: {.dragndrop feedback="Feedback shows incorrect matches." match_1="address-of|||(&) is used to access the memory address of a C++ variable." match_2="atomic data type|||Data type that cannot be broken down into any simpler data elements." match_3="dereference|||Reads data in a pointers memory location." match_4="pointer|||Variables that store and manipulate memory addresses."}
-matching_ADT
-
-Drag each glossary term to its\' corresponding definition. (Note: none
-of the data types are in this matching, but they are in the glossary)
-:::
