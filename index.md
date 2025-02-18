@@ -10,8 +10,6 @@ Welcome to the advanced programming course which is devoted to C++ for Python pr
 
 This course consists of several chapters, each covering a specific topic or feature of C++. Each chapter contains a lot of code examples and exercises to help you understand and practice the concepts. You can find the source code on the [GitHub repository](https://github.com/fum-cs/cpp4python/) of this course (TO-DO). I hope you enjoy this course and learn a lot from it.
 
-## Further Reading
-
 ## References
 
 - [Hacking C++](https://hackingcpp.com/)
