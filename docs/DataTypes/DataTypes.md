@@ -7,37 +7,15 @@ nav_order: 3
 
 - [Using Data in C++](#using-data-in-c)
   - [Numeric Data](#numeric-data)
-    - [C++ Code: Basic Arithmetic Operators](#c-code-basic-arithmetic-operators)
+    - [C++ Code: Basic Arithmetic Operators](#basic-arithmetic-operators)
   - [Boolean Data](#boolean-data)
   - [Logical Operators in C++](#logical-operators-in-c)
-    - [C++ Code: Logical Operators](#c-code-logical-operators)
-    - [Python Code: Logical Operators](#python-code-logical-operators)
   - [C++ Relational and Logical Operators](#c-relational-and-logical-operators)
   - [Basic Relational and Logical Operators](#basic-relational-and-logical-operators)
-    - [C++ Code:](#c-code)
-    - [Python Code:](#python-code)
   - [Variable Declaration in C++](#variable-declaration-in-c)
-    - [C++ Code: Variable Declaration and Boolean Pitfall](#c-code-variable-declaration-and-boolean-pitfall)
-    - [Pitfall: Boolean Assignment in C++](#pitfall-boolean-assignment-in-c)
-    - [Multiple Choice Question](#multiple-choice-question)
   - [Character Data](#character-data)
-    - [Python Code: Strings and Characters](#python-code-strings-and-characters)
-    - [C++ Code: Characters and Strings](#c-code-characters-and-strings)
 - [Pointers](#pointers)
-  - [Memory addresses](#memory-addresses)
-    - [C++](#c)
-    - [python](#python)
-- [Pointer Syntax](#pointer-syntax)
-  - [2.5.1.1. The address-of operator, `&`](#2511-the-address-of-operator-)
-  - [Accessing Values from Pointers](#accessing-values-from-pointers)
-  - [Multiple Choice: If the lines (`varN = 50;`) and (`cout << *ptrN << endl;`) were inserted into line 7-8, what would it output?](#multiple-choice-if-the-lines-varn--50-and-cout--ptrn--endl-were-inserted-into-line-7-8-what-would-it-output)
-    - [Correct Answer: B](#correct-answer-b)
-    - [Feedback:](#feedback)
-    - [Warning: What happens if you forget the ampersand when assigning a value to a pointer?](#warning-what-happens-if-you-forget-the-ampersand-when-assigning-a-value-to-a-pointer)
-    - [cpp](#cpp)
-  - [This is BAD, BAD, BAD!](#this-is-bad-bad-bad)
-  - [The null pointer](#the-null-pointer)
-  - [Summary](#summary)
+- [Summary](#summary)
 
 # Using Data in C++
 
@@ -68,7 +46,26 @@ Exponentiation in C++ is done using `pow()` from the `cmath` library, and the re
 
 Run the following code to see that you understand each result.  
 
-### C++ Code: Basic Arithmetic Operators
+### Basic Arithmetic Operators
+
+```cpp
+# Function that performs a variety of math operations.
+def main():
+    print(2+3*4)
+    print((2+3)*4)
+    print(2**10)
+    print(6/3)
+    print(7/3)
+    print(7//3)
+    print(7%3)
+    print(3/6)
+    print(3//6)
+    print(3%6)
+    print(2**100)
+
+main()
+```
+
 ```cpp
 #include <iostream>
 #include <cmath>
@@ -91,24 +88,6 @@ int main() {
     return 0;
 }
 ```
-```cpp
-# Function that performs a variety of math operations.
-def main():
-    print(2+3*4)
-    print((2+3)*4)
-    print(2**10)
-    print(6/3)
-    print(7/3)
-    print(7//3)
-    print(7%3)
-    print(3/6)
-    print(3//6)
-    print(3%6)
-    print(2**100)
-
-main()
-```
-
 
 ## Boolean Data
 
@@ -131,6 +110,18 @@ Hence, we see this in output as well.
 
 ## Logical Operators in C++
 
+### Python Code: Logical Operators
+```python
+# Function that demonstrates logical operators.
+def main():
+    print(True)
+    print(False)
+    print(True or False)
+    print(True and False)
+
+main()
+```
+
 ### C++ Code: Logical Operators
 ```cpp
 #include <iostream>
@@ -144,18 +135,6 @@ int main() {
     cout << (true && false) << endl;
     return 0;
 }
-```
-
-### Python Code: Logical Operators
-```python
-# Function that demonstrates logical operators.
-def main():
-    print(True)
-    print(False)
-    print(True or False)
-    print(True and False)
-
-main()
 ```
 
 Boolean data objects are also used as results for comparison operators  
@@ -180,6 +159,17 @@ form complex logical expressions.
 
 ## Basic Relational and Logical Operators
 
+### Python Code:
+```python
+# Function that demonstrates relational operators.
+def main():
+    print(5 == 10)
+    print(10 > 5)
+    print((5 >= 1) and (5 <= 10))
+
+main()
+```
+
 ### C++ Code:
 ```cpp
 #include <iostream>
@@ -193,17 +183,6 @@ int main() {
 
     return 0;
 }
-```
-
-### Python Code:
-```python
-# Function that demonstrates relational operators.
-def main():
-    print(5 == 10)
-    print(10 > 5)
-    print((5 >= 1) and (5 <= 10))
-
-main()
 ```
 
 ## Variable Declaration in C++
@@ -307,7 +286,9 @@ int main() {
 }
 ```
 
-# Pointers
+[C++ Reference Card](https://www.dropbox.com/scl/fi/s09cjeo1s6xu9f56m48w7/c-refcard.pdf?rlkey=dnv1yasc97aiuut8olsp1ryik&st=wv46wuq7&dl=0)
+
+# Pointers 
 
 A C++ **pointer** is a variable that stores a memory address and can be used to indirectly
 access data stored at that memory location.
