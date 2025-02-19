@@ -284,8 +284,7 @@ int main() {
     return 0;
 }
 ```
-
-<!-- [C++ Reference Card](https://www.dropbox.com/scl/fi/s09cjeo1s6xu9f56m48w7/c-refcard.pdf?rlkey=dnv1yasc97aiuut8olsp1ryik&st=wv46wuq7&dl=0) -->
+[C++ Reference Card](https://www.dropbox.com/scl/fi/s09cjeo1s6xu9f56m48w7/c-refcard.pdf?rlkey=dnv1yasc97aiuut8olsp1ryik&st=wv46wuq7&dl=0)
 
 ```python
 # _ Used in Python 3.6 and later.
