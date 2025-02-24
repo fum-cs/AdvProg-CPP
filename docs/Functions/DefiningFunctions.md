@@ -46,6 +46,136 @@ can in turn be passed to another invocation.
 
 Let us look at a similar function.
 
+**example** 
+
+```cpp
+// Create a function
+void myFunction() {
+  cout << "I just got executed!";
+}
+
+int main() {
+  myFunction(); // call the function
+  return 0;
+}
+
+// Outputs "I just got executed!"
+```
+```cpp
+void myFunction() {
+  cout << "I just got executed!\n";
+}
+
+int main() {
+  myFunction();
+  myFunction();
+  myFunction();
+  return 0;
+}
+
+// I just got executed!
+// I just got executed!
+// I just got executed!
+```
+```cpp
+#include <iostream>
+using namespace std;
+
+int getNumber() {
+    return 10;
+}
+
+int main() {
+    cout << getNumber(); // 10
+    return 0;
+}
+
+```
+```cpp
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    cout << add(3, 5); //8
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+bool isEven(int n) {
+    return n % 2 == 0;
+}
+
+int main() {
+    cout << isEven(4); //TRUE
+    return 0;
+}
+
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void printText(string text) {
+    cout << text << endl;
+}
+
+int main() {
+    printText("Hello");
+    return 0;
+}
+
+```
+```cpp
+#include <iostream>
+using namespace std;
+
+string concatStrings(string s1, string s2) {
+    return s1 + s2;
+}
+
+int main() {
+    cout << concatStrings("Hello", " World!"); // Hello World!
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+bool alwaysTrue() {
+    return true;
+}
+int main() {
+    cout << alwaysTrue(); // 1
+    return 0;
+}
+```
+```cpp
+#include <iostream>
+using namespace std;
+
+bool isPositive(int n) {
+    return n > 0;
+}
+
+int main() {
+    cout << isPositive(10);  // (True)
+    cout << isPositive(-5);  // (False)
+    return 0;
+}
+
+```
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -362,9 +492,7 @@ of the letters are correct we are done. If the letters are not correct
 then we will generate a whole new string. To make it easier to follow
 your program\'s progress this third function should print out the best
 string generated so far and its score every 1000 tries.
-:::
 
-::: {.admonition}
 Self Check Challenge
 
 See if you can improve upon the program in the self check by keeping
@@ -372,4 +500,4 @@ letters that are correct and only modifying one character in the best
 string so far. This is a type of algorithm in the class of \'hill
 climbing\' algorithms, that is we only keep the result if it is better
 than the previous one.
-:::
+
