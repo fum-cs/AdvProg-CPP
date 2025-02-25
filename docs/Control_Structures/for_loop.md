@@ -31,10 +31,13 @@ In the example above, the hello world statement is executed 10 times.
 A common use of the for construct is to implement certain repetition over a range of values.
 ```cpp
 #include <iostream> using namespace std;
+    // squares the numebers in range 5 
+    // // ex. 0*0, 1*1, 2*2 ... 
+    // int main() {
+    //       for (int i=0; i<5; i++) 
+    //          { cout << i*i << " "; 
 
-    // squares the numebers in range 5 // ex. 0*0, 1*1, 2*2 ... int main() { for (int i=0; i<5; i++) { cout << i*i << " "; }
-
-        return 0;
+    // return 0;
 
     }
 ```
@@ -60,4 +63,23 @@ using namespace std;
 
      return 0;
  }
+```
+**example**
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <numeric> // for iota
+using namespace std;
+
+// squares the numbers in range 5
+// ex. 0*0, 1*1, 2*2 ...
+int main() {
+    vector<int> my_range(5);
+    iota(my_range.begin(), my_range.end(), 0);
+    for(auto i: my_range)
+        cout << i*i << " ";
+
+    return 0;
+}
 ```

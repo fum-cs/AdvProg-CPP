@@ -114,7 +114,7 @@ bool isEven(int n) {
 }
 
 int main() {
-    cout << isEven(4); //TRUE
+    cout << isEven(4); //1
     return 0;
 }
 
@@ -169,8 +169,9 @@ bool isPositive(int n) {
 }
 
 int main() {
-    cout << isPositive(10);  // (True)
-    cout << isPositive(-5);  // (False)
+    cout << isPositive(10);  // 1 
+                                  //=>10
+    cout << isPositive(-5);  // 0 
     return 0;
 }
 
@@ -222,28 +223,39 @@ of the // characters as a comment marker. Any characters that follow the
 // on a line are ignored.
 
 ```cpp
-// returns the square root of a number as a double
 #include <iostream>
 using namespace std;
 
-double squareroot(double n) { /*return type double which indicates
-                                that a decimal is being returned*/
-      double root = n / 2;
-
-      for (int i = 0; i < 20; i++) {
-                root = (.5) * (root + (n / root));
-      }
-
-      return root;
+// Function to calculate the sum of digits of a number
+int sumOfDigits(int n) {
+    int sum = 0;
+    while (n > 0) {
+        sum += n % 10; // Get the last digit and add it to sum
+        n /= 10; // Remove the last digit
+    }
+    return sum;
 }
 
 int main() {
-      cout << squareroot(9) << endl;
-      cout << squareroot(4563) << endl;
+    int num;
+    
+    // Taking input from the user
+    cout << "Enter a number: ";
+    cin >> num;
 
-      return 0;
+    // Calling the function to calculate the sum of digits
+    int result = sumOfDigits(num);
+    
+    // Displaying the result
+    cout << "Sum of digits: " << result << endl;
+    
+    return 0;
 }
+
+
 ```
+### Function Call Mechanism
+[Mechanism of Function Calls](https://hackingcpp.com/cpp/lang/function_call_mechanics.html)
 
 # Parameter Passing: by Value versus by Reference
 
