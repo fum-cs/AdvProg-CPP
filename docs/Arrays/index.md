@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array
+title: Arrays
 nav_order: 9
 has_children: true
 ---

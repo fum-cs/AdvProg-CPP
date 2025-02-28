@@ -1,6 +1,7 @@
 ---
-title: Array
-layout: Arrays
-nav_order: 1
+layout: default
+title: introduction
+parent: Arrays
+nav_order: 2
 ---
 # Introduction
