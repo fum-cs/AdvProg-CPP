@@ -26,19 +26,19 @@ needs to include the vector library.
 
 ## C++ Relational and Logical Operators
 
-| **Vector Operation**        | **Use** | **Explanation**                                                |
+| **Vector Operation**      | **Use**                     | **Explanation**                                                  |
 |---------------------------|-------------|-----------------------------------------------------------------|
-| Less than                 | `myvector[i]`         | access value of element at index i                                              |
-| =              | `myvector[i]=value`         | assign value to element at index i                                           |
-| push_back        | `myvect.push_back(item)`        | Appends item to the far end of the vector                                  |
-| pop_back     | `myvect.pop_back()`        | Deletes last item (from far end) of the vector                               |
-| insert                     | `myvect.insert(i, item)`        | Inserts an item at index i                                               |
-| erase                 | `myvect.erase(i)`        | Erases an element from index i                                            |
-| size               | `myvect.size()`        | Returns the actual size used by elements            |
-| capacity                | `myvect.capacity()`        | Returns the size of allocated storage capacity |
-| reserve               | `myvect.reserve(amount)`         | Request a change in capacity to amount |
-: **Common C++ Vector Operators**
-:::
+| Less than                 | `myvector[i]`               | access value of element at index i                                                          |
+| =                         | `myvector[i]=value`         | assign value to element at index i                                                          |
+| push_back                 | `myvect.push_back(item)`    | Appends item to the far end of the vector                                  |
+| pop_back                  | `myvect.pop_back()`         | Deletes last item (from far end) of the vector                                               |
+| insert                    | `myvect.insert(i, item)`    | Inserts an item at index i                                                                |
+| erase                     | `myvect.erase(i)`           | Erases an element from index i                                                                |
+| size                      | `myvect.size()`             | Returns the actual size used by elements                                                         |
+| capacity                  | `myvect.capacity()`         | Returns the size of allocated storage capacity                                                 |
+| reserve                   | `myvect.reserve(amount)`    | Request a change in capacity to amount                                                           |
+
+
 
 A very common programming task is to grow a vector using the
 `push_back()` method to append to the vector as we see in the next
