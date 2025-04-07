@@ -90,9 +90,7 @@ see if it works, but in some older versions of C++, such as C++98, it
 does not.
 
 The above loop assigns the variable `index` to be each successive value from 0 to numsSize.
-
-:   Then, the value at that index in the array is printed to the
-    console.
+Then, the value at that index in the array is printed to the console.
 
 ## Matching
 
