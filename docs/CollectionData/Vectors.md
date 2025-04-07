@@ -24,7 +24,7 @@ needs to include the vector library.
 
     #include <vector>
 
-## C++ Relational and Logical Operators
+## Common C++ Vector Operators
 
 | **Vector Operation**      | **Use**                     | **Explanation**                                                  |
 |---------------------------|-------------|-----------------------------------------------------------------|
