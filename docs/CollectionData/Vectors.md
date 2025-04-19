@@ -28,7 +28,7 @@ needs to include the vector library.
 
 | **Vector Operation**      | **Use**                     | **Explanation**                                                  |
 |---------------------------|-------------|-----------------------------------------------------------------|
-| Less than                 | `myvector[i]`               | access value of element at index i                                                          |
+| access                    | `myvector[i]`               | access value of element at index i                                                          |
 | =                         | `myvector[i]=value`         | assign value to element at index i                                                          |
 | push_back                 | `myvect.push_back(item)`    | Appends item to the far end of the vector                                  |
 | pop_back                  | `myvect.pop_back()`         | Deletes last item (from far end) of the vector                                               |
